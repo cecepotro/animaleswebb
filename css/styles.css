@@ -1,0 +1,91 @@
+body{
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.50;
+    color: #333333;
+    background-color: #fff;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+
+.navbar{
+    position: relative;
+    min-height: 50px;
+    background-color: #222;
+    margin-bottom: 20px;
+    top:0;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* ancho */
+    width: 1170px;
+}
+
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav{
+    float: left;
+    margin:0;
+    margin:7px -15px;
+}
+
+.nav > li{
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.nav > li > a{
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+
+    padding:10px 15px;
+
+    line-height: 20px;
+    position: relative;
+    display: block;
+    color:#989898;
+
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus{
+    color:#fff;
+}
+
+.table{
+    border-collapse: collapse;
+    padding: 10x;
+    width: 100%;
+}
+
+.table td, .table th{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
